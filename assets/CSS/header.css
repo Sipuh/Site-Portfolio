@@ -1,0 +1,111 @@
+
+@import url('font.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180.58deg, #070709 45.42%, #363636 212.83%);
+  height: 3000px;
+}
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: #070709;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  position: relative;
+}
+
+.navigation {
+  font-family: "Silkscreen", sans-serif;
+  background: #1D1D1D;
+  border-radius: 50px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  width: 90vw; /* НЕ на всю ширину */
+  height: auto;
+  margin: 0 auto; /* <<< центрирует блок по горизонтали */
+}
+
+.logotype {
+  position: absolute;
+  left: 20px; /* Фиксированное смещение слева */
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Silkscreen", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+.logotype span {
+  color: white;
+  margin-left: 50px;
+  padding-right: 25px;
+}
+
+.navigation ul {
+  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 30px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+i {
+  padding: 10px;
+}
+.button-nav button {
+  height: 1vh;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  user-select: none;
+  color: #ffffff;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #d3d3d3;
+  border-right-color: #c5c5c5;
+  border-bottom-color: #ffffff;
+  border-left-color: #ffffff;
+ 
+  background-color: transparent;
+}
+
+.button-nav {
+  position: absolute;
+  right: 100px; /* Фиксированное смещение слева */
+}
+
+

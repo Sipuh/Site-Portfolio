@@ -1,0 +1,99 @@
+@import url('font.css');
+.footer-links {
+    background-color: black;
+    color: white;
+    font-family: "Silkscreen", sans-serif;
+    width: 100vw;
+    height: 30vh;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.block-upper {
+     display: block;
+     width: 80%;
+     height: 2px; 
+     background: linear-gradient(to right, #111 25%, #ffffff 50%, #111 100%);
+     margin-top: 90px;
+     opacity: 1; 
+}
+
+.Links {
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    margin: 35px;
+    margin-left: 10vw;
+}
+.Links a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.Links a:hover {
+    color: #888;
+}
+.links-footer {
+    display: flex;
+    justify-content: right; /* можно right или left */
+    width: 100%;
+    padding: 40px;
+}
+
+.links-footer a:hover {
+    color: #888;
+}
+
+
+.footer-links ul {
+    display: flex;
+    gap: 50px; /* Промежуток между пунктами */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-right: 10vw;
+}
+
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #888;
+}
+.block-underline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.underline {
+    width: 80%;
+    color: white;
+    font-family: "Silkscreen", sans-serif;
+    margin: 0;
+    font-size: 16px;
+    
+    opacity: 0.2;
+    border-top: 2px solid white; 
+    margin-top: 90px;
+
+    
+}
+
+.block-description-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    font-family:  "Silkscreen", sans-serif;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+
+
+

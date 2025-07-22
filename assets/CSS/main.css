@@ -1,0 +1,150 @@
+@import url('font.css');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* Section-Main */
+.container-main-background {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+/* .container-main-background video {
+    width: 100%;       
+    height: 80vh;     
+    object-fit: cover;
+    display: block;
+    mix-blend-mode: exclusion;
+    filter: blur(2px);
+} */
+
+.main-section-text {
+    margin-top: -150px;
+    font-size: 3vw;
+    color: white;
+    font-family: "Silkscreen", sans-serif;
+    text-align: center;
+}
+
+.main-section-text p {
+    font-size: 1.2rem;
+}
+
+.Buttons-main-section button {
+    box-sizing: border-box;
+    width: 12vw;
+    height: 7vh;
+    border-color: aliceblue;
+    background: linear-gradient(356.18deg, rgba(74, 74, 74, 0.5) -34.74%, rgba(176, 176, 176, 0.5) 375.1%);
+    border: 1px solid #AAAAAA;
+    border-radius: 50px;
+    font-family: "Silkscreen", sans-serif;;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.Buttons-main-section a {
+    text-decoration: none;
+    color: white;
+}
+.buttonsnv {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  user-select: none;
+  color: #ffffff;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #d3d3d3;
+  border-right-color: #c5c5c5;
+  border-bottom-color: #ffffff;
+  border-left-color: #ffffff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: transparent;
+}
+
+.buttonsnv:hover {
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px #ffffff;
+}
+
+.Video-background {
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -2;
+  filter: blur(2px);
+  mix-blend-mode: lighten; /* или overlay / screen — поэкспериментируй */
+  overflow: hidden;
+  object-fit: contain;
+}
+.typing {
+  font-family: "Silkscreen", monospace, sans-serif;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+  width: 0;
+  animation: typing 2.5s steps(22, end) forwards, blink 0.7s step-end 2; /* blink повторится 4 раза за 2.8сек (пример) */
+  /* Кол-во повторов blink выбирается так, чтобы анимация примерно совпала с typing */
+}
+
+/* Анимация набора текста */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 22ch }
+}
+
+/* Анимация мигания курсора */
+@keyframes blink {
+  0%, 100% { border-color: white; }
+  50% { border-color: transparent; }
+}
+.typing.finished {
+  border-right: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
